@@ -15,6 +15,14 @@
 		6A820B791E23642900DCC7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A820B771E23642900DCC7EB /* LaunchScreen.storyboard */; };
 		6A820B841E23642A00DCC7EB /* YFX_ScoketForServerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A820B831E23642A00DCC7EB /* YFX_ScoketForServerDemoTests.m */; };
 		6A820B8F1E23642A00DCC7EB /* YFX_ScoketForServerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A820B8E1E23642A00DCC7EB /* YFX_ScoketForServerDemoUITests.m */; };
+		6A820B9E1E23649A00DCC7EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820B9D1E23649A00DCC7EB /* AVFoundation.framework */; };
+		6A820BA01E2364A500DCC7EB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820B9F1E2364A500DCC7EB /* CoreMedia.framework */; };
+		6A820BA21E2364AF00DCC7EB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820BA11E2364AF00DCC7EB /* CoreVideo.framework */; };
+		6A820BA41E2364B500DCC7EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820BA31E2364B500DCC7EB /* Foundation.framework */; };
+		6A820BA61E2364C700DCC7EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820BA51E2364C700DCC7EB /* UIKit.framework */; };
+		6A820BA81E2364D500DCC7EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A820BA71E2364D500DCC7EB /* CoreGraphics.framework */; };
+		6A820BAD1E23660D00DCC7EB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A820BAA1E23660D00DCC7EB /* GCDAsyncSocket.m */; };
+		6A820BAE1E23660D00DCC7EB /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A820BAC1E23660D00DCC7EB /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		6A820B8A1E23642A00DCC7EB /* YFX_ScoketForServerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFX_ScoketForServerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A820B8E1E23642A00DCC7EB /* YFX_ScoketForServerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFX_ScoketForServerDemoUITests.m; sourceTree = "<group>"; };
 		6A820B901E23642A00DCC7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A820B9D1E23649A00DCC7EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A820B9F1E2364A500DCC7EB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6A820BA11E2364AF00DCC7EB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6A820BA31E2364B500DCC7EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A820BA51E2364C700DCC7EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A820BA71E2364D500DCC7EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A820BA91E23660D00DCC7EB /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		6A820BAA1E23660D00DCC7EB /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6A820BAB1E23660D00DCC7EB /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		6A820BAC1E23660D00DCC7EB /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A820BA81E2364D500DCC7EB /* CoreGraphics.framework in Frameworks */,
+				6A820BA61E2364C700DCC7EB /* UIKit.framework in Frameworks */,
+				6A820BA41E2364B500DCC7EB /* Foundation.framework in Frameworks */,
+				6A820BA21E2364AF00DCC7EB /* CoreVideo.framework in Frameworks */,
+				6A820BA01E2364A500DCC7EB /* CoreMedia.framework in Frameworks */,
+				6A820B9E1E23649A00DCC7EB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 				6A820B821E23642A00DCC7EB /* YFX_ScoketForServerDemoTests */,
 				6A820B8D1E23642A00DCC7EB /* YFX_ScoketForServerDemoUITests */,
 				6A820B671E23642900DCC7EB /* Products */,
+				6A820B9C1E23649A00DCC7EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +130,10 @@
 				6A820B6D1E23642900DCC7EB /* AppDelegate.m */,
 				6A820B6F1E23642900DCC7EB /* ViewController.h */,
 				6A820B701E23642900DCC7EB /* ViewController.m */,
+				6A820BA91E23660D00DCC7EB /* GCDAsyncSocket.h */,
+				6A820BAA1E23660D00DCC7EB /* GCDAsyncSocket.m */,
+				6A820BAB1E23660D00DCC7EB /* GCDAsyncUdpSocket.h */,
+				6A820BAC1E23660D00DCC7EB /* GCDAsyncUdpSocket.m */,
 				6A820B721E23642900DCC7EB /* Main.storyboard */,
 				6A820B751E23642900DCC7EB /* Assets.xcassets */,
 				6A820B771E23642900DCC7EB /* LaunchScreen.storyboard */,
@@ -138,6 +167,19 @@
 				6A820B901E23642A00DCC7EB /* Info.plist */,
 			);
 			path = YFX_ScoketForServerDemoUITests;
+			sourceTree = "<group>";
+		};
+		6A820B9C1E23649A00DCC7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A820BA71E2364D500DCC7EB /* CoreGraphics.framework */,
+				6A820BA51E2364C700DCC7EB /* UIKit.framework */,
+				6A820BA31E2364B500DCC7EB /* Foundation.framework */,
+				6A820BA11E2364AF00DCC7EB /* CoreVideo.framework */,
+				6A820B9F1E2364A500DCC7EB /* CoreMedia.framework */,
+				6A820B9D1E23649A00DCC7EB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +249,7 @@
 				TargetAttributes = {
 					6A820B651E23642900DCC7EB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 654YYRTASK;
+						DevelopmentTeam = 6R8UQ2XA7K;
 						ProvisioningStyle = Automatic;
 					};
 					6A820B7E1E23642A00DCC7EB = {
@@ -276,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A820BAD1E23660D00DCC7EB /* GCDAsyncSocket.m in Sources */,
+				6A820BAE1E23660D00DCC7EB /* GCDAsyncUdpSocket.m in Sources */,
 				6A820B711E23642900DCC7EB /* ViewController.m in Sources */,
 				6A820B6E1E23642900DCC7EB /* AppDelegate.m in Sources */,
 				6A820B6B1E23642900DCC7EB /* main.m in Sources */,
@@ -427,10 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 654YYRTASK;
+				DEVELOPMENT_TEAM = 6R8UQ2XA7K;
 				INFOPLIST_FILE = YFX_ScoketForServerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fangxue.YFX-ScoketForServerDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = yangfangxue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,10 +483,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 654YYRTASK;
+				DEVELOPMENT_TEAM = 6R8UQ2XA7K;
 				INFOPLIST_FILE = YFX_ScoketForServerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fangxue.YFX-ScoketForServerDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = yangfangxue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +560,7 @@
 				6A820B951E23642A00DCC7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A820B961E23642A00DCC7EB /* Build configuration list for PBXNativeTarget "YFX_ScoketForServerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +569,7 @@
 				6A820B981E23642A00DCC7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A820B991E23642A00DCC7EB /* Build configuration list for PBXNativeTarget "YFX_ScoketForServerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +578,7 @@
 				6A820B9B1E23642A00DCC7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
